@@ -9,7 +9,7 @@ if you want to change password,all you need to do is change the configuration in
 
 you need to change `c.NotebookApp.password` (which is sha1 hash of  your own password)
 
-you can get sha1 hash  through `from notebook.auth import passwd;password()` 
+you can get sha1 hash  through `from notebook.auth import passwd;passwd()` 
 then rebuild through Dockerfile in this repo.
 
 # links
